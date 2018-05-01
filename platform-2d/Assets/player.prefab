@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4856138175003454}
   - component: {fileID: 50949488176020254}
   - component: {fileID: 61458787147829762}
+  - component: {fileID: 114800855688817578}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -83,7 +84,7 @@ Transform:
   m_GameObject: {fileID: 1868895761716512}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 2, y: 4, z: 2}
   m_Children: []
   m_Father: {fileID: 4856138175003454}
   m_RootOrder: 1
@@ -95,7 +96,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1125328344965220}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.06, y: -2.33, z: -0.026630208}
+  m_LocalPosition: {x: -3.49, y: -0.99, z: -0.026630208}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4412572284191926}
@@ -158,7 +159,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &61458787147829762
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -182,7 +183,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 2}
   m_EdgeRadius: 0
 --- !u!81 &81895136492220046
 AudioListener:
@@ -191,6 +192,17 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1156628303762518}
   m_Enabled: 1
+--- !u!114 &114800855688817578
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1125328344965220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2053035910b54314bacdc49e6b3b5a49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!124 &124613391631212174
 Behaviour:
   m_ObjectHideFlags: 1
@@ -233,7 +245,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9de9ebd6a2277404db86fadb68a023da, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
