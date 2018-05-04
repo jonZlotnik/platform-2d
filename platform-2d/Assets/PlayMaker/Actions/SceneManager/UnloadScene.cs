@@ -15,7 +15,7 @@ namespace HutongGames.PlayMaker.Actions
 	[Obsolete("Use UnloadSceneAsynch Instead")]
 	#endif
 	[ActionCategory(ActionCategory.Scene)]
-	[Tooltip("Unload Seene. Note that assets are currently not unloaded, in order to free up asset memory call Resources.UnloadUnusedAssets.")]
+	[Tooltip("Unload Scene. Note that assets are currently not unloaded, in order to free up asset memory call Resources.UnloadUnusedAssets.")]
 	public class UnloadScene : FsmStateAction
 	{
 		public enum SceneReferenceOptions {ActiveScene,SceneAtBuildIndex,SceneAtIndex,SceneByName,SceneByPath,SceneByGameObject};

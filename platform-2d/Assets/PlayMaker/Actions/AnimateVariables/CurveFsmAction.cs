@@ -10,7 +10,7 @@ namespace HutongGames.PlayMaker.Actions
 	{
 		[Tooltip("Define time to use your curve scaled to be stretched or shrinked.")]
 		public FsmFloat time;
-		[Tooltip("If you define speed, your animation will be speeded up or slowed down.")]
+		[Tooltip("If you define speed, your animation will speed up or slow down.")]
 		public FsmFloat speed;
 		[Tooltip("Delayed animimation start.")]
 		public FsmFloat delay;

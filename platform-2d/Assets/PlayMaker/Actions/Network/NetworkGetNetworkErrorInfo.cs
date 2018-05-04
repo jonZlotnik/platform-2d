@@ -22,7 +22,7 @@ namespace HutongGames.PlayMaker.Actions
 		public FsmEvent RSAPublicKeyMismatchEvent;
 		[Tooltip("The server is using a password and has refused our connection because we did not set the correct password.")]
 		public FsmEvent InvalidPasswordEvent;
-		[Tooltip("onnection attempt failed, possibly because of internal connectivity problems.")]
+		[Tooltip("Connection attempt failed, possibly because of internal connectivity problems.")]
 		public FsmEvent ConnectionFailedEvent;
 		[Tooltip("The server is at full capacity, failed to connect.")]
 		public FsmEvent TooManyConnectedPlayersEvent;
@@ -44,7 +44,7 @@ namespace HutongGames.PlayMaker.Actions
 		public FsmEvent NATTargetNotConnectedEvent;
 		[Tooltip("Connection lost while attempting to connect to NAT target.")]
 		public FsmEvent NATTargetConnectionLostEvent;
-		[Tooltip("NAT punchthrough attempt has failed. The cause could be a too restrictive NAT implementation on either endpoints.")]
+		[Tooltip("NAT punch-through attempt has failed. The cause could be a too restrictive NAT implementation on either endpoints.")]
 		public FsmEvent NATPunchthroughFailedEvent;
 
 		

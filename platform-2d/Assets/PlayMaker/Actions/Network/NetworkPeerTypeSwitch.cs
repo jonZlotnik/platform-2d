@@ -7,7 +7,7 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Network)]
-	[Tooltip("Send Events based on the status of the network interface peer type: Disconneced, Server, Client, Connecting.")]
+	[Tooltip("Send Events based on the status of the network interface peer type: Disconnected, Server, Client, Connecting.")]
 	public class NetworkPeerTypeSwitch : FsmStateAction
 	{
 		[Tooltip("Event to send if no client connection running. Server not initialized.")]

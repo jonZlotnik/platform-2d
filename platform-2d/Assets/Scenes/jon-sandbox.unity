@@ -113,6 +113,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &968251725 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1125328344965220, guid: c8e16897b92a755489151a8394f77487,
+    type: 2}
+  m_PrefabInternal: {fileID: 1998552900}
+--- !u!70 &968251729
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 968251725}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 1, y: 2}
+  m_Direction: 0
 --- !u!1001 &1257466501
 Prefab:
   m_ObjectHideFlags: 0
@@ -152,6 +172,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 68949636991674926, guid: d1c78dcaab08c6241836f3ce3f35b2cc,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 68017740547168466, guid: d1c78dcaab08c6241836f3ce3f35b2cc,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: eaeeed97a0e995547977f4d64d272817, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d1c78dcaab08c6241836f3ce3f35b2cc, type: 2}
   m_IsPrefabParent: 0
@@ -194,29 +224,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 212618411463319934, guid: c8e16897b92a755489151a8394f77487,
+    - target: {fileID: 61458787147829762, guid: c8e16897b92a755489151a8394f77487,
         type: 2}
-      propertyPath: m_Color.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212618411463319934, guid: c8e16897b92a755489151a8394f77487,
-        type: 2}
-      propertyPath: m_Color.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 212618411463319934, guid: c8e16897b92a755489151a8394f77487,
-        type: 2}
-      propertyPath: m_Color.b
-      value: 0
+      propertyPath: m_Material
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 61458787147829762, guid: c8e16897b92a755489151a8394f77487,
         type: 2}
-      propertyPath: m_Size.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4629494414385084, guid: c8e16897b92a755489151a8394f77487, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 4
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8e16897b92a755489151a8394f77487, type: 2}

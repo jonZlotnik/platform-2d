@@ -11,7 +11,7 @@ namespace HutongGames.PlayMaker.Actions
 	public class NetworkInstantiate : FsmStateAction
 	{
 		[RequiredField]
-		[Tooltip("The prefab will be instanted on all clients in the game.")]
+		[Tooltip("The prefab will be instantiated on all clients in the game.")]
 		public FsmGameObject prefab;
 
 		[Tooltip("Optional Spawn Point.")]

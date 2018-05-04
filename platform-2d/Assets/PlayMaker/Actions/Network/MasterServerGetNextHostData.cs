@@ -26,7 +26,7 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		public FsmInt index;
 		
-		[Tooltip("Does this server require NAT punchthrough?")]
+		[Tooltip("Does this server require NAT punch-through?")]
 		[UIHint(UIHint.Variable)]
 		public FsmBool useNat;
 		
@@ -62,7 +62,7 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		public FsmString comment;
 		 
-		[Tooltip("The GUID of the host, needed when connecting with NAT punchthrough.")]
+		[Tooltip("The GUID of the host, needed when connecting with NAT punch-through.")]
 		[UIHint(UIHint.Variable)]
 		public FsmString guid;
 

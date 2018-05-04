@@ -119,6 +119,17 @@ namespace HutongGames.PlayMakerEditor
             EditorGUILayout.HelpBox("Always BACKUP projects before updating!" +
                                     "\nUse Version Control to track changes.", MessageType.Warning);
 
+            // Version 1.8.6
+
+            GUILayout.Label("Version 1.8.6", EditorStyles.boldLabel);
+
+            EditorGUILayout.HelpBox(
+                "\nPlayMaker 1.8.6 is more strict about changes allowed in Prefab Instances: "+
+                "If a Prefab Instance is modified in a way that is incompatible with the Prefab Parent it will be disconnected. " +
+                "You can reconnect Instances using Apply or Revert." +
+                "\n",
+                MessageType.Warning);
+
             // Version 1.8.5
 
             GUILayout.Label("Version 1.8.5", EditorStyles.boldLabel);

@@ -43,6 +43,10 @@ using System.Reflection;
 using UnityEngine;
 #endregion
 
+#if UNITY_2017_2_OR_NEWER
+#pragma warning disable CS0618  
+#endif
+
 /// <summary>
 /// <para>Version: 2.0.44</para>	 
 /// <para>Author: Bob Berkebile (http://pixelplacement.com)</para>

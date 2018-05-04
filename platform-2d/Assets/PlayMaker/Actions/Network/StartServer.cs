@@ -22,7 +22,7 @@ namespace HutongGames.PlayMaker.Actions
 		[Tooltip("Sets the password for the server. This must be matched in the NetworkConnect action.")]
 		public FsmString incomingPassword;
 
-		[Tooltip("Sets the NAT punchthrough functionality.")]
+		[Tooltip("Sets the NAT punch-through functionality.")]
 		public FsmBool useNAT;
 		
 		[Tooltip("Unity handles the network layer by providing secure connections if you wish to use them. \n" +

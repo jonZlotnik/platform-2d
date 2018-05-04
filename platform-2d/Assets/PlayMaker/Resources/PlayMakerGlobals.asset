@@ -31,4 +31,6 @@ MonoBehaviour:
     - 
     variableCategoryIDs: 
   events:
+  - Bullet Fired
   - INITIATE
+  - Reload

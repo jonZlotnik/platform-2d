@@ -19,15 +19,19 @@ namespace HutongGames.PlayMakerEditor
             AddScriptingDefineSymbolToAllTargets("PLAYMAKER");
 
             AddScriptingDefineSymbolToAllTargets("PLAYMAKER_1_8");
-            AddScriptingDefineSymbolToAllTargets("PLAYMAKER_1_8_5");
-            AddScriptingDefineSymbolToAllTargets("PLAYMAKER_1_8_5_OR_NEWER");
+            AddScriptingDefineSymbolToAllTargets("PLAYMAKER_1_8_9");
             AddScriptingDefineSymbolToAllTargets("PLAYMAKER_1_8_OR_NEWER");
+            AddScriptingDefineSymbolToAllTargets("PLAYMAKER_1_8_5_OR_NEWER");
             
             RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_0");
             RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_1");
             RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_2");
             RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_3");
             RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_4");
+            RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_5");
+            RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_6");
+            RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_7");
+            RemoveScriptingDefineSymbolFromAllTargets("PLAYMAKER_1_8_8");
         }
 
         public static void AddScriptingDefineSymbolToAllTargets(string defineSymbol)
@@ -48,8 +52,7 @@ namespace HutongGames.PlayMakerEditor
                     {
                         Debug.Log("Could not set PLAYMAKER defines for build target group: " + group);
                         throw;
-                    }
-                    
+                    }                  
                 }
             }
         }

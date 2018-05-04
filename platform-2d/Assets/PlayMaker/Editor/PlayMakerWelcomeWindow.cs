@@ -18,7 +18,7 @@ namespace HutongGames.PlayMakerEditor
     public class PlayMakerWelcomeWindow : EditorWindow
     {
         // Remember to update version info since it's used by export scripts!
-        public const string InstallCurrentVersion = "1.8.5";
+        public const string InstallCurrentVersion = "1.8.9";
         public const string InstallBetaVersion = "";
         public const string Version = InstallCurrentVersion + " " + InstallBetaVersion;
 
@@ -83,7 +83,7 @@ namespace HutongGames.PlayMakerEditor
 
         private static bool stylesInitialized;
 
-#if PLAYMAKER_1_8_5
+#if PLAYMAKER_1_8_9
         [MenuItem("PlayMaker/Welcome Screen", false, 500)]
 #elif PLAYMAKER
         [MenuItem("PlayMaker/Update PlayMaker", false, 500)]
@@ -133,6 +133,7 @@ namespace HutongGames.PlayMakerEditor
 
             // We want to show the Upgrade Guide after installing
 
+            /*
             if (EditorStartupPrefs.ShowUpgradeGuide)
             {
                 //currentPage = Page.UpgradeGuide; //TODO: This was problematic
@@ -140,7 +141,7 @@ namespace HutongGames.PlayMakerEditor
                 EditorUtility.DisplayDialog("PlayMaker",
                     "Please check the Upgrade Guide for more information on this release.", 
                     "OK");
-            }
+            }*/
 
             SetPage(currentPage);               
             Update();
@@ -160,7 +161,7 @@ namespace HutongGames.PlayMakerEditor
                 }
                 else
                 {
-                    currentVersionLabel = "version unkown";
+                    currentVersionLabel = "version unknown";
                     currentVersionShort = "";
                     majorVersion = -1;
                 }
@@ -436,6 +437,14 @@ namespace HutongGames.PlayMakerEditor
             GUILayout.Label("Version 1.8+", EditorStyles.boldLabel);
             EditorGUILayout.HelpBox(
                 "FSMs saved with 1.8+ cannot be opened in earlier versions of PlayMaker! Please BACKUP projects!",
+                MessageType.Warning);
+
+            GUILayout.Label("Version 1.8.6", EditorStyles.boldLabel);
+            EditorGUILayout.HelpBox(
+                "\nPlayMaker 1.8.6 is more strict about changes allowed in Prefab Instances: "+
+                "If a Prefab Instance is modified in a way that is incompatible with the Prefab Parent it will be disconnected. " +
+                "You can reconnect Instances using Apply or Revert." +
+                "\n",
                 MessageType.Warning);
 
             GUILayout.Label("Version 1.8.5", EditorStyles.boldLabel);

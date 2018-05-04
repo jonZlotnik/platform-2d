@@ -59,6 +59,9 @@ namespace HutongGames.PlayMaker.Actions
             get { return cachedComponent as Camera; }
         }
 
+		#if UNITY_2017_2_OR_NEWER
+		#pragma warning disable CS0618 
+        #endif
         protected GUIText guiText
         {
             get { return cachedComponent as GUIText; }
@@ -68,6 +71,9 @@ namespace HutongGames.PlayMaker.Actions
         {
             get { return cachedComponent as GUITexture; }
         }
+        #if UNITY_2017_2_OR_NEWER
+        #pragma warning restore CS0618 
+		#endif
 
         protected Light light
         {

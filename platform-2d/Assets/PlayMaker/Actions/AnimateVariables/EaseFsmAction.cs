@@ -40,12 +40,12 @@ namespace HutongGames.PlayMaker.Actions
 		protected float delayTime = 0f;
 		protected float percentage = 0f;
 		
-		//in descendet class, please set OnEnter or Reset all these arrays to the same length
+		//in descendant class, please set OnEnter or Reset all these arrays to the same length
 		protected float[] fromFloats = new float[0];
 		protected float[] toFloats = new float[0];
 		protected float[] resultFloats = new float[0];
 		
-		//set the end point in the descedent class and call Finish() and finishEvent in OnUpdate()
+		//set the end point in the decedent class and call Finish() and finishEvent in OnUpdate()
 		protected bool finishAction = false;
 		protected bool start = false;
 		protected bool finished = false;
@@ -165,7 +165,7 @@ namespace HutongGames.PlayMaker.Actions
 			}
 		}
 		
-		//instantiates a cached ease equation refrence:
+		//instantiates a cached ease equation reference:
 		protected void SetEasingFunction(){
 			switch (easeType){
 			case EaseType.easeInQuad:

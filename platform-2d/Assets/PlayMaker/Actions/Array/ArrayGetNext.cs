@@ -29,6 +29,7 @@ namespace HutongGames.PlayMaker.Actions
 		[ActionSection("Result")]
 
 		[MatchElementType("array")]
+		[UIHint(UIHint.Variable)]
 		public FsmVar result;
 
 		[UIHint(UIHint.Variable)]

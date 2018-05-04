@@ -18,7 +18,7 @@ namespace HutongGames.PlayMaker.Actions
 		[UIHint(UIHint.Variable)]
 		public FsmInt port;
 		
-		[Tooltip("The GUID for this player, used when connecting with NAT punchthrough.")]
+		[Tooltip("The GUID for this player, used when connecting with NAT punch-through.")]
 		[UIHint(UIHint.Variable)]
 		public FsmString guid;
 		

@@ -7,12 +7,12 @@ using UnityEngine;
 namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory(ActionCategory.Network)]
-	[Tooltip("Remove the RPC function calls accociated with a Game Object.\n\nNOTE: The Game Object must have a NetworkView component attached.")]
+	[Tooltip("Remove the RPC function calls associated with a Game Object.\n\nNOTE: The Game Object must have a NetworkView component attached.")]
 	public class NetworkViewRemoveRPCs : ComponentAction<NetworkView>
 	{
 		[RequiredField]
 		[CheckForComponent(typeof(NetworkView))]
-		[Tooltip("Remove the RPC function calls accociated with this Game Object.\n\nNOTE: The GameObject must have a NetworkView component attached.")]
+		[Tooltip("Remove the RPC function calls associated with this Game Object.\n\nNOTE: The GameObject must have a NetworkView component attached.")]
 		public FsmOwnerDefault gameObject;
 		
 		public override void Reset()
