@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/jon-sandbox.unity
+    guid: 5e0d7a4767f0a9f4e9294ef5fcc0ca99
