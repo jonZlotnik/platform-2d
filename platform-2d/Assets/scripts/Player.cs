@@ -50,28 +50,20 @@ public class Player : MonoBehaviour {
 	// Controllable
 	//
 
-<<<<<<< HEAD
-	private float maxSpeed { get; }
-	private float speed { get; }
-	private float jumpHeight { get; }
-	private int direction { get; set; }
-	private Vector2 position { get; set; }
-
-	private bool isRunning { get; }
-	private bool isJumping { get; }
-	private bool isGrounded { get; }
-	private bool isIdle { get; }
+	private bool isRunning;
+	private bool isJumping;
+	private bool isGrounded ;
+	private bool isIdle;
 
 	void updateDirection ()
 	{
 		this.direction = (int)Mathf.Sign(this.transform.localScale.x);
-=======
+	}
 	private float maxSpeed = 10;
 	private float speed{
 		get {
 			return Mathf.Abs (this.rb2d.velocity.x);
 		}
->>>>>>> b594e888276a59e23f1b7a48bf9eee5da537efe5
 	}
 	private float velX{
 		get{
@@ -89,18 +81,14 @@ public class Player : MonoBehaviour {
 		get {
 			return Mathf.Sign(this.transform.localScale.x);
 		}
+		set{}
 	}
 	private Vector2 position{
 		get{
 			return new Vector2 (this.transform.position.x, this.transform.position.y);
 		}
-	} 
-	private bool isRunning; 
-	private bool isJumping;
-	private bool isGrounded;
-	private bool isIdle;
+	}
 
-<<<<<<< HEAD
 //	void moveForward ()
 //	{
 //		
@@ -109,7 +97,6 @@ public class Player : MonoBehaviour {
 //	void jump ();
 //	void run ();
 //	void walk ();
-=======
 	void moveForward ()
 	{
 		this.rb2d.AddForce (
@@ -129,7 +116,6 @@ public class Player : MonoBehaviour {
 	//void jump ();
 	//void run ();
 	//void walk ();
->>>>>>> b594e888276a59e23f1b7a48bf9eee5da537efe5
 
 
 
