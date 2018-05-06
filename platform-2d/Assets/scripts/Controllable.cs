@@ -87,7 +87,11 @@ namespace Controller
 	}
 	void jump ()
 	{
-		
+		this.rb2d.AddForce(
+			new Vector2(
+
+			)
+		);
 	}
 
 
