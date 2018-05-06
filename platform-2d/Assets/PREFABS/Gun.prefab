@@ -94,7 +94,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 435.1953
-        y: 242.3125
+        y: 258.3125
         width: 131
         height: 48
       isBreakpoint: 0
@@ -186,8 +186,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 641.5469
-        y: 409.73438
+        x: 624.4375
+        y: 417.16406
         width: 122
         height: 32
       isBreakpoint: 0
@@ -284,8 +284,8 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 270.40625
-        y: 441.10938
+        x: 266.72656
+        y: 431.48438
         width: 100
         height: 32
       isBreakpoint: 0
@@ -356,8 +356,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 643.4453
-        y: 471.3672
+        x: 626.33594
+        y: 478.79688
         width: 123
         height: 32
       isBreakpoint: 0
@@ -593,8 +593,8 @@ MonoBehaviour:
       colorIndex: 6
       position:
         serializedVersion: 2
-        x: 449.0625
-        y: 120.94531
+        x: 446.5625
+        y: 100.28125
         width: 100
         height: 32
       isBreakpoint: 0
@@ -613,25 +613,15 @@ MonoBehaviour:
         actionNames:
         - HutongGames.PlayMaker.Actions.GetPosition
         - HutongGames.PlayMaker.Actions.FindGameObject
-        - HutongGames.PlayMaker.Actions.FindChild
-        - HutongGames.PlayMaker.Actions.SetIntValue
         customNames:
         - 
         - 
-        - 
-        - 
-        actionEnabled: 01010101
-        actionIsOpen: 01010101
-        actionStartIndex: 00000000070000000a0000000d000000
-        actionHashCodes: 5552ad05786b3902f90ba701603dd905
+        actionEnabled: 0101
+        actionIsOpen: 0101
+        actionStartIndex: 0000000007000000
+        actionHashCodes: 5552ad05786b3902
         unityObjectParams: []
         fsmGameObjectParams:
-        - useVariable: 1
-          name: Player
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: {fileID: 0}
         - useVariable: 1
           name: Aiming Reticle
           tooltip: 
@@ -643,14 +633,6 @@ MonoBehaviour:
           gameObject:
             useVariable: 0
             name: 
-            tooltip: 
-            showInInspector: 0
-            networkSync: 0
-            value: {fileID: 0}
-        - ownerOption: 1
-          gameObject:
-            useVariable: 1
-            name: Player
             tooltip: 
             showInInspector: 0
             networkSync: 0
@@ -667,19 +649,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Player
+          value: Aiming Reticle
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
           value: Untagged
-        - useVariable: 0
-          name: 
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: Aiming Reticle
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -703,19 +679,7 @@ MonoBehaviour:
           showInInspector: 0
           networkSync: 0
           value: 0
-        fsmIntParams:
-        - useVariable: 1
-          name: BURST NumCounter
-          tooltip: 
-          showInInspector: 0
-          networkSync: 0
-          value: 0
-        - useVariable: 1
-          name: BURST NUM
-          tooltip: 
-          showInInspector: 1
-          networkSync: 0
-          value: 3
+        fsmIntParams: []
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params:
@@ -729,12 +693,12 @@ MonoBehaviour:
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams: []
-        byteData: 000000000000
+        byteData: 0000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000120000001200000013000000140000001200000013000000100000001000000001000000
+        paramDataType: 140000001c0000000f0000000f0000000f0000000700000001000000120000001200000013000000
         paramName:
         - gameObject
         - vector
@@ -746,21 +710,15 @@ MonoBehaviour:
         - objectName
         - withTag
         - store
-        - gameObject
-        - childName
-        - storeResult
-        - intVariable
-        - intValue
-        - everyFrame
-        paramDataPos: 00000000000000000000000001000000020000000000000004000000000000000100000000000000010000000200000001000000000000000100000005000000
-        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000000000000000000000000000000000000000000000000000000000000000000001000000
+        paramDataPos: 00000000000000000000000001000000020000000000000004000000000000000100000000000000
+        paramByteDataSize: 00000000000000000000000000000000000000000400000001000000000000000000000000000000
     - name: Get Fire Vector
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 634.125
-        y: 347.90625
+        x: 617.0156
+        y: 355.33594
         width: 130
         height: 32
       isBreakpoint: 0
@@ -852,8 +810,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 446.04688
-        y: 337.73438
+        x: 442.3672
+        y: 359.8125
         width: 117
         height: 48
       isBreakpoint: 0
@@ -945,7 +903,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 259.5078
-        y: 337.79688
+        y: 353.79688
         width: 110
         height: 48
       isBreakpoint: 0
@@ -1026,8 +984,8 @@ MonoBehaviour:
       colorIndex: 4
       position:
         serializedVersion: 2
-        x: 425.375
-        y: 448.8125
+        x: 421.6953
+        y: 439.1875
         width: 148
         height: 48
       isBreakpoint: 0
@@ -1108,8 +1066,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 653.08594
-        y: 526.8906
+        x: 671.3047
+        y: 536.71875
         width: 100
         height: 48
       isBreakpoint: 0
@@ -1120,7 +1078,7 @@ MonoBehaviour:
           name: Pass
           isSystemEvent: 0
           isGlobal: 0
-        toState: BURST INTERVAL
+        toState: (BURST RATE)
         linkStyle: 0
         linkConstraint: 2
         colorIndex: 0
@@ -1128,7 +1086,7 @@ MonoBehaviour:
           name: Block
           isSystemEvent: 0
           isGlobal: 0
-        toState: Burst Reset
+        toState: Burst Done
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1211,14 +1169,14 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000020000000300000000000000010000000200000001000000
         paramByteDataSize: 000000000000000001000000000000000000000000000000000000000000000001000000
-    - name: Burst Reset
+    - name: Burst Done
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 446.14844
-        y: 535.8672
-        width: 106
+        x: 446.10938
+        y: 549.3906
+        width: 103
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1288,14 +1246,14 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000100000000000000
         paramByteDataSize: 000000000000000001000000
-    - name: BURST INTERVAL
+    - name: (BURST RATE)
       description: 
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 808.16406
-        y: 529.5625
-        width: 146
+        x: 831.2656
+        y: 536.9531
+        width: 127
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1334,7 +1292,7 @@ MonoBehaviour:
         fsmEnumParams: []
         fsmFloatParams:
         - useVariable: 1
-          name: BURST INTERVAL
+          name: BURST RATE
           tooltip: 
           showInInspector: 1
           networkSync: 0
@@ -1365,8 +1323,8 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 445.625
-        y: 182.50781
+        x: 444.3672
+        y: 155.78125
         width: 115
         height: 32
       isBreakpoint: 0
@@ -1377,7 +1335,7 @@ MonoBehaviour:
           name: FINISHED
           isSystemEvent: 1
           isGlobal: 0
-        toState: Wait for Button
+        toState: (BURST NUM)
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1458,8 +1416,8 @@ MonoBehaviour:
       colorIndex: 5
       position:
         serializedVersion: 2
-        x: 830.96875
-        y: 388.53125
+        x: 833.35156
+        y: 395.9453
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1645,8 +1603,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 645.2656
-        y: 269.45312
+        x: 628.15625
+        y: 276.8828
         width: 115
         height: 48
       isBreakpoint: 0
@@ -1769,8 +1727,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 807.72656
-        y: 311.78125
+        x: 790.6172
+        y: 319.21094
         width: 157
         height: 32
       isBreakpoint: 0
@@ -1874,8 +1832,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 244.95312
-        y: 179.38281
+        x: 229
+        y: 142.74219
         width: 119
         height: 48
       isBreakpoint: 0
@@ -1888,7 +1846,7 @@ MonoBehaviour:
           isGlobal: 0
         toState: Empty Chck
         linkStyle: 0
-        linkConstraint: 0
+        linkConstraint: 1
         colorIndex: 0
       - fsmEvent:
           name: Block
@@ -2032,7 +1990,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 240.32031
-        y: 256
+        y: 272
         width: 126
         height: 32
       isBreakpoint: 0
@@ -2137,7 +2095,7 @@ MonoBehaviour:
       position:
         serializedVersion: 2
         x: 56.976562
-        y: 228.22656
+        y: 244.22656
         width: 122
         height: 32
       isBreakpoint: 0
@@ -2208,8 +2166,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 247.96094
-        y: 115.828125
+        x: 241.80469
+        y: 207.38281
         width: 107
         height: 48
       isBreakpoint: 0
@@ -2327,6 +2285,83 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 0000000000000000010000000000000000000000010000000200000000000000010000000200000001000000
         paramByteDataSize: 0000000000000000000000000000000001000000000000000000000000000000000000000000000001000000
+    - name: (BURST NUM)
+      description: 
+      colorIndex: 5
+      position:
+        serializedVersion: 2
+        x: 438.83594
+        y: 206.98438
+        width: 124
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Wait for Button
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.SetIntValue
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 603dd905
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: BURST NumCounter
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: BURST NUM
+          tooltip: 
+          showInInspector: 1
+          networkSync: 0
+          value: 3
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 100000001000000001000000
+        paramName:
+        - intVariable
+        - intValue
+        - everyFrame
+        paramDataPos: 000000000100000000000000
+        paramByteDataSize: 000000000000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -2377,7 +2412,7 @@ MonoBehaviour:
         networkSync: 0
         value: 25
       - useVariable: 1
-        name: BURST INTERVAL
+        name: BURST RATE
         tooltip: 
         showInInspector: 1
         networkSync: 0
@@ -2389,7 +2424,7 @@ MonoBehaviour:
         networkSync: 0
         value: 0.25
       - useVariable: 1
-        name: RECOIL
+        name: RECOIL (not)
         tooltip: 
         showInInspector: 1
         networkSync: 0
@@ -2525,12 +2560,6 @@ MonoBehaviour:
         value: {fileID: 1098164495954872, guid: 3e7226c3187326e428f8097c2746293a,
           type: 2}
       - useVariable: 1
-        name: Player
-        tooltip: 
-        showInInspector: 0
-        networkSync: 0
-        value: {fileID: 0}
-      - useVariable: 1
         name: spawnedObject
         tooltip: 
         showInInspector: 0
@@ -2547,7 +2576,7 @@ MonoBehaviour:
       - 2. Gun Properties
       - 3. Burst Related
       - 4. Bullet Properties
-      variableCategoryIDs: 04000000040000000400000003000000020000000200000002000000020000000200000002000000000000000000000000000000000000000300000000000000000000000000000000000000010000000100000000000000000000000000000000000000040000000000000000000000
+      variableCategoryIDs: 040000000400000004000000030000000200000002000000020000000200000002000000020000000000000000000000000000000000000003000000000000000000000000000000000000000100000001000000000000000000000000000000000000000400000000000000
     description: 
     docUrl: 
     showStateLabel: 1
@@ -3017,7 +3046,7 @@ MonoBehaviour:
           networkSync: 0
           value: 0
         - useVariable: 1
-          name: TOTAL SIZE
+          name: RESERVE SIZE
           tooltip: 
           showInInspector: 1
           networkSync: 0
@@ -3253,11 +3282,11 @@ MonoBehaviour:
         networkSync: 0
         value: 8
       - useVariable: 1
-        name: TOTAL SIZE
+        name: RESERVE SIZE
         tooltip: 
         showInInspector: 1
         networkSync: 0
-        value: 10
+        value: 4
       - useVariable: 1
         name: currentClip
         tooltip: 
@@ -3302,7 +3331,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
