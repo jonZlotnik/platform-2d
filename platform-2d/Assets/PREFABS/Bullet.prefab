@@ -1025,7 +1025,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 63.992188
         y: 221
-        width: 125
+        width: 135
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1154,7 +1154,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 424
         y: 232
-        width: 107
+        width: 117
         height: 48
       isBreakpoint: 0
       isSequence: 0
@@ -1169,7 +1169,7 @@ MonoBehaviour:
         linkConstraint: 0
         colorIndex: 0
       - fsmEvent:
-          name: Flase
+          name: False
           isSystemEvent: 0
           isGlobal: 0
         toState: Relocate
@@ -1227,7 +1227,7 @@ MonoBehaviour:
         fsmQuaternionParams: []
         stringParams:
         - True
-        - Flase
+        - False
         byteData: 00
         arrayParamSizes: 
         arrayParamTypes: []
@@ -1345,7 +1345,7 @@ MonoBehaviour:
         serializedVersion: 2
         x: 247.96875
         y: 188
-        width: 123
+        width: 133
         height: 32
       isBreakpoint: 0
       isSequence: 0
@@ -1426,7 +1426,7 @@ MonoBehaviour:
     - name: Entered
       isSystemEvent: 0
       isGlobal: 0
-    - name: Flase
+    - name: False
       isSystemEvent: 0
       isGlobal: 0
     - name: Hit
@@ -1509,7 +1509,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 1
+    preprocessed: 0
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2062,7 +2062,7 @@ MonoBehaviour:
     handleJointBreak: 0
     handleJointBreak2D: 0
     handleOnGUI: 0
-    handleFixedUpdate: 1
+    handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
     handleLegacyNetworking: 0
