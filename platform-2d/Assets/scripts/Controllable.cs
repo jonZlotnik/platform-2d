@@ -30,6 +30,10 @@ namespace Controller
 				this.moveForward(this.maxSpeed);
 			}
 		}
+		if(Input.GetAxis("Jump") > 0)
+		{
+			jump();
+		}
 
 
 	}
@@ -61,7 +65,7 @@ namespace Controller
 		}
 	}
 	private float accelerationMultiplier = 20;
-	private float jumpHeight;
+	private float jumpHeight = 3f;
 	private float direction {
 		get {
 			return Mathf.Sign(this.transform.localScale.x);
@@ -87,11 +91,13 @@ namespace Controller
 	}
 	void jump ()
 	{
-		this.rb2d.AddForce(
+		/*this.rb2d.AddForce(
 			new Vector2(
-
+				0,jumpHeight
 			)
-		);
+		);*/
+		Vector2 jumpVelocity = new Vector2(this.rb2d.velocity.x, Mathf.Sqrt(-2f* Physics2D.gravity.y*jumpHeight));
+		this.rb2d.velocity = jumpVelocity;
 	}
 
 
