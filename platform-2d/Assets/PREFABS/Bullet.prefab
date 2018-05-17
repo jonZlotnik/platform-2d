@@ -1164,7 +1164,7 @@ MonoBehaviour:
           name: True
           isSystemEvent: 0
           isGlobal: 0
-        toState: Set New As Old
+        toState: Relocate
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1172,7 +1172,7 @@ MonoBehaviour:
           name: False
           isSystemEvent: 0
           isGlobal: 0
-        toState: Relocate
+        toState: Set New As Old
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -1206,7 +1206,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Player
+          value: Platform
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
