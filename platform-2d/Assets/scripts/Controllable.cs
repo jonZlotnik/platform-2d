@@ -83,7 +83,6 @@ namespace Controller
 			new Vector2(moveSpeed-this.speed, 0)
 			*this.accelerationMultiplier
 			*this.direction);
-		Debug.Log ("Moving Forward");
 	}
 	void flip ()
 	{
