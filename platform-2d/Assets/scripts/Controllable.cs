@@ -8,13 +8,13 @@ namespace Controller
 
 
 	Rigidbody2D rb2d;
-	BoxCollider2D bc2d;
+	CapsuleCollider2D cc2d;
 
 	// Use this for initialization
 	void Start () 
 	{
 		this.rb2d = this.GetComponent<Rigidbody2D> ();
-		this.bc2d = this.GetComponent<BoxCollider2D> ();
+		this.cc2d = this.GetComponent<CapsuleCollider2D> ();
 	}
 
 	// Update is called once per frame

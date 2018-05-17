@@ -194,6 +194,11 @@ Prefab:
       propertyPath: m_RootOrder
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 114592959243314076, guid: c8e16897b92a755489151a8394f77487,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c8e16897b92a755489151a8394f77487, type: 2}
   m_IsPrefabParent: 0
@@ -491,3 +496,32 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f7becf42452b8c478bb81beddbe6335, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1756032758 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1469478084101034, guid: c8e16897b92a755489151a8394f77487,
+    type: 2}
+  m_PrefabInternal: {fileID: 305118514}
+--- !u!114 &1756032764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1756032758}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1998bb47d1023e743829aa9ee2dc9a26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAirdashing: 0
+  maxHP: 45
+  hp: 0
+  INVINCIBILITY_DURATION: 3
+  KNOCKBACK_DURATION: 1
+  AIRDASH_DURATION: 0
+  GLIDE_DURATION: 10
+  LAUNCH_CHARGE_DURATION: 0
+  airDashLength: 8
+  airDashSpeed: 30
+  glideTerminal: 3
+  launchHeight: 6
+  canControl: 1
