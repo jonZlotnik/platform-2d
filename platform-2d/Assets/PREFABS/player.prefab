@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4648389644525760}
   - component: {fileID: 114614961106974740}
   - component: {fileID: 114879068333090540}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun - SB(C)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4557665273826306}
   - component: {fileID: 114976536600421476}
   - component: {fileID: 114452282456718434}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun - AB(C)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,7 +53,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4463330894641224}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AR Pos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 50054044146829886}
   - component: {fileID: 61596496399568734}
   - component: {fileID: 114592959243314076}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 81857882279366270}
   - component: {fileID: 114389186261186820}
   - component: {fileID: 114144084580402342}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 4393981935048184}
   - component: {fileID: 114337870875189020}
   - component: {fileID: 114799171007328966}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Inventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 4867841710098072}
   - component: {fileID: 114955229298711576}
   - component: {fileID: 114846076895168574}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun - AS(C)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +142,7 @@ GameObject:
   - component: {fileID: 4627656585642770}
   - component: {fileID: 114031867251673698}
   - component: {fileID: 114717244409839302}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Gun - SS(C)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,7 +158,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4877789584191630}
   - component: {fileID: 212883531301392252}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -750,15 +750,15 @@ MonoBehaviour:
     dataVersion: 2
     usedInTemplate: {fileID: 0}
     name: Player - Inventory
-    startState: Get Init Items
+    startState: Prep
     states:
     - name: Get Init Items
       description: 
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 246
-        y: 100
+        x: 262
+        y: 164
         width: 122
         height: 48
       isBreakpoint: 0
@@ -870,8 +870,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 431
-        y: 109
+        x: 447
+        y: 173
         width: 100
         height: 32
       isBreakpoint: 0
@@ -915,12 +915,12 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: INVENTORY ARRAY
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Inventory Array
+          value: 
         fsmObjectParams: []
         fsmVarParams:
         - variableName: currentChild
@@ -998,8 +998,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 257
-        y: 258
+        x: 273
+        y: 322
         width: 126
         height: 48
       isBreakpoint: 0
@@ -1090,8 +1090,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 409
-        y: 320
+        x: 425
+        y: 384
         width: 111
         height: 48
       isBreakpoint: 0
@@ -1162,7 +1162,7 @@ MonoBehaviour:
         - useVariable: 1
           name: inventorySize
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0
         fsmBoolParams: []
@@ -1198,8 +1198,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 127.984375
-        y: 321
+        x: 143.98438
+        y: 385
         width: 107
         height: 48
       isBreakpoint: 0
@@ -1306,8 +1306,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 265
-        y: 171
+        x: 281
+        y: 235
         width: 102
         height: 48
       isBreakpoint: 0
@@ -1361,12 +1361,12 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: INVENTORY ARRAY
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Inventory Array
+          value: 
         fsmObjectParams: []
         fsmVarParams: []
         fsmArrayParams: []
@@ -1376,13 +1376,13 @@ MonoBehaviour:
         - useVariable: 1
           name: inventorySize
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0
         - useVariable: 1
           name: inventorySize
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0
         - useVariable: 0
@@ -1394,7 +1394,7 @@ MonoBehaviour:
         - useVariable: 1
           name: inventorySize
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0
         - useVariable: 0
@@ -1439,8 +1439,8 @@ MonoBehaviour:
       colorIndex: 3
       position:
         serializedVersion: 2
-        x: 408
-        y: 209
+        x: 424
+        y: 273
         width: 100
         height: 16
       isBreakpoint: 0
@@ -1491,8 +1491,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 123
-        y: 393.0078
+        x: 139
+        y: 457.0078
         width: 103
         height: 32
       isBreakpoint: 0
@@ -1541,7 +1541,7 @@ MonoBehaviour:
         - useVariable: 1
           name: inventorySize
           tooltip: 
-          showInInspector: 0
+          showInInspector: 1
           networkSync: 0
           value: 0
         fsmBoolParams: []
@@ -1568,8 +1568,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 414.2578
-        y: 386.7578
+        x: 430.2578
+        y: 450.7578
         width: 100
         height: 32
       isBreakpoint: 0
@@ -1645,8 +1645,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 258
-        y: 445
+        x: 274
+        y: 509
         width: 133
         height: 32
       isBreakpoint: 0
@@ -1756,12 +1756,12 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: INVENTORY ARRAY
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Inventory Array
+          value: 
         fsmObjectParams: []
         fsmVarParams:
         - variableName: currentActiveItem
@@ -1847,8 +1847,8 @@ MonoBehaviour:
       colorIndex: 2
       position:
         serializedVersion: 2
-        x: 61.992188
-        y: 210.96094
+        x: 77.99219
+        y: 274.96094
         width: 167
         height: 32
       isBreakpoint: 0
@@ -1924,12 +1924,12 @@ MonoBehaviour:
         fsmPropertyParams: []
         layoutOptionParams: []
         fsmStringParams:
-        - useVariable: 0
-          name: 
+        - useVariable: 1
+          name: INVENTORY ARRAY
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: Inventory Array
+          value: 
         fsmObjectParams: []
         fsmVarParams:
         - variableName: currentActiveItem
@@ -1999,6 +1999,313 @@ MonoBehaviour:
         - everyFrame
         paramDataPos: 000000000000000000000000000000000000000000000000010000000000000000000000
         paramByteDataSize: 000000000000000000000000000000000000000000000000000000000000000001000000
+    - name: Item Add
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 65
+        y: 206
+        width: 144
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Get Length
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.ArrayListAdd
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 1cc91602
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 1
+          name: INVENTORY ARRAY
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 
+        fsmObjectParams: []
+        fsmVarParams:
+        - variableName: addingItem
+          objectType: UnityEngine.Object
+          useVariable: 1
+          type: 3
+          floatValue: 0
+          intValue: 0
+          boolValue: 0
+          stringValue: 
+          vector4Value: {x: 0, y: 0, z: 0, w: 0}
+          objectReference: {fileID: 0}
+          arrayValue:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams:
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000270000000100000010000000
+        paramName:
+        - gameObject
+        - reference
+        - variable
+        - convertIntToByte
+        - index
+        paramDataPos: 0000000000000000000000000000000000000000
+        paramByteDataSize: 0000000000000000000000000100000000000000
+    - name: Prep
+      description: 
+      colorIndex: 6
+      position:
+        serializedVersion: 2
+        x: 269
+        y: 115.984375
+        width: 100
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: FINISHED
+          isSystemEvent: 1
+          isGlobal: 0
+        toState: Get Init Items
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.GetProperty
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 5ac85204
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams: []
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams:
+        - TargetObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: UnityEngine.Object
+            value: {fileID: 114799171007328966}
+          TargetTypeName: PlayMakerArrayListProxy
+          PropertyName: referenceName
+          BoolParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          FloatParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          IntParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 0
+          GameObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+          StringParameter:
+            useVariable: 1
+            name: INVENTORY ARRAY
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: 
+          Vector2Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0}
+          Vector3Parameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0}
+          RectParamater:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value:
+              serializedVersion: 2
+              x: 0
+              y: 0
+              width: 0
+              height: 0
+          QuaternionParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {x: 0, y: 0, z: 0, w: 0}
+          ObjectParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: System.String
+            value: {fileID: 0}
+          MaterialParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          TextureParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            typeName: 
+            value: {fileID: 0}
+          ColorParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {r: 0, g: 0, b: 0, a: 1}
+          EnumParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            enumName: 
+            intValue: 0
+          ArrayParameter:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            type: -1
+            objectTypeName: 
+            floatValues: []
+            intValues: 
+            boolValues: 
+            stringValues: []
+            vector4Values: []
+            objectReferences: []
+          setProperty: 0
+        layoutOptionParams: []
+        fsmStringParams: []
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams: []
+        fsmIntParams: []
+        fsmBoolParams: []
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 00
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 2400000001000000
+        paramName:
+        - targetProperty
+        - everyFrame
+        paramDataPos: 0000000000000000
+        paramByteDataSize: 0000000001000000
     events:
     - name: FINISHED
       isSystemEvent: 1
@@ -2018,6 +2325,9 @@ MonoBehaviour:
     - name: Down
       isSystemEvent: 0
       isGlobal: 0
+    - name: INVENTORY ADD
+      isSystemEvent: 0
+      isGlobal: 1
     - name: Loop
       isSystemEvent: 0
       isGlobal: 0
@@ -2027,16 +2337,24 @@ MonoBehaviour:
     - name: Up
       isSystemEvent: 0
       isGlobal: 0
-    globalTransitions: []
+    globalTransitions:
+    - fsmEvent:
+        name: INVENTORY ADD
+        isSystemEvent: 0
+        isGlobal: 1
+      toState: Item Add
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
     variables:
       floatVariables: []
       intVariables:
       - useVariable: 1
         name: Max Inventory Size
-        tooltip: 
+        tooltip: In Index (so technically 7 items)
         showInInspector: 1
         networkSync: 0
-        value: 7
+        value: 6
       - useVariable: 1
         name: childCounter
         tooltip: 
@@ -2052,17 +2370,29 @@ MonoBehaviour:
       - useVariable: 1
         name: inventorySize
         tooltip: 
-        showInInspector: 0
+        showInInspector: 1
         networkSync: 0
         value: 0
       boolVariables: []
-      stringVariables: []
+      stringVariables:
+      - useVariable: 1
+        name: INVENTORY ARRAY
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: 
       vector2Variables: []
       vector3Variables: []
       colorVariables: []
       rectVariables: []
       quaternionVariables: []
       gameObjectVariables:
+      - useVariable: 1
+        name: addingItem
+        tooltip: 
+        showInInspector: 0
+        networkSync: 0
+        value: {fileID: 0}
       - useVariable: 1
         name: currentActiveItem
         tooltip: 
@@ -2082,7 +2412,7 @@ MonoBehaviour:
       enumVariables: []
       categories:
       - 
-      variableCategoryIDs: 000000000000000000000000000000000000000000000000
+      variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
     description: 
     docUrl: 
     showStateLabel: 1
